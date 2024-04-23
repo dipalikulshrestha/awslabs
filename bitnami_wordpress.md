@@ -160,7 +160,7 @@ Open this config.inc.php with your preferred editor e.g. vi or nano
 
 ```
 vi config.inc.php
-
+```
 Go to the end of file (in vi, you can use shift+G), press ‘o’ to add a new line in the end.
 
 copy-paste following in the end of file. Make sure to replace database endpoint at line 3. To paste you can use Shift+Insert or Shift+rightclick
@@ -181,7 +181,7 @@ Now to save file. Press Esc, then :wq (write & quit)
 Change the file permissions back
 ```
 chmod 644 config.inc.php
-
+```
 Now, go to phpMyAdmin client via browser: http://localhost:8888/phpmyadmin/index.php
 
 At login screen, provide the RDS credentials ie
